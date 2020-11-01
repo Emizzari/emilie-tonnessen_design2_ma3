@@ -1,0 +1,64 @@
+.btn{
+    transition: .3s ease-in-out;
+    position: relative;
+    border-radius: 0;
+}
+
+.btn--primary{
+    background: #141414;
+    color: white;
+    text-decoration: none;
+}
+
+.btn--primary:hover{
+    background: #667368;
+    cursor: pointer;
+}
+
+.btn--secondary{
+    background: #667368;
+    color: white;
+    text-decoration: none;
+}
+
+.btn--secondary:hover{
+    background: #D9C2A7;
+    color: white;
+    cursor: pointer;
+}
+
+.btn--lg{
+    padding: 20px 30px;
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+
+.btn--md{
+    padding: 10px 20px;
+    margin: 0px;
+    font-size: 1.2rem;
+    height: 60px;
+    text-align: center;
+}
+
+.btn--search{
+    border-radius: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: #667368;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #667368a9;
+}
+
+.footer__link{
+    color: #D9C2A7;
+}
+
+.footer__link:hover{
+    color: #d9c2a79a;
+}

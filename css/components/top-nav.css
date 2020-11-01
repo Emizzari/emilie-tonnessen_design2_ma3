@@ -1,0 +1,80 @@
+.top-nav{
+    border-bottom: 2px solid #D9C2A7;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.top-nav__section--top{
+    margin-top: 20px;
+}
+
+.logo--home img{
+    width: 250px;
+}
+
+.icons{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.icons__container{
+    position: relative;
+}
+
+.icon__item{
+    background: #D9C2A7;
+    color: white;
+    border-radius: 100%;
+    padding: 4px;
+    position: absolute;
+    font-size: 8px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    top: -10px;
+    right: -10px;
+}
+
+.icons__container:hover{
+    cursor: pointer;
+}
+
+.fa-heart{
+    color: darkred;
+}
+
+.fa-shopping-bag{
+    color: #667368;
+    margin-left: 20px;
+}
+
+.search{
+    display: flex;
+    
+}
+
+.search__input{
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid lightgrey;
+}
+
+.top-nav__menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.top-nav__menu li a{
+    color: #667368;
+    padding: 0px 10px;
+}
+
+.top-nav__section__right-menu{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,45 @@
+.side-menu{
+    padding: 20px 0px 20px 20px;
+}
+
+.checkbox{
+    max-width: 20px !important;
+    max-height: 20px;
+    background: #b6b6b6;
+    padding: 0;
+    margin: 0;
+}
+
+.dd-1__title,
+.dd-2__title{
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dd-1 .fas{
+    text-align: right;
+    padding: 0px 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.dd-2 .fas{
+    text-align: left;
+    padding: 7px 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.dd-1{
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.dd-2{
+    padding: 10px 0;
+    margin: 0;
+}
